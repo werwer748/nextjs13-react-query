@@ -2,7 +2,6 @@
 
 import { useQuery } from "@tanstack/react-query";
 import { User } from "@/app/types";
-import Image from "next/image";
 
 async function getUsers() {
   return (await fetch("https://jsonplaceholder.typicode.com/users").then(
